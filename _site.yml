@@ -1,0 +1,37 @@
+name: Abir JAOUANI
+output_dir: '.'
+navbar:
+  title: Abir JAOUANI
+  type: inverse
+  left:
+  - text: Education
+    icon: fa-user
+    href: education.html
+  - text: Interships
+    href: intership.html
+  - text: Projects
+    menu:
+    - text: Projet ACP
+      href: abiracp.html
+    - text: Projet de Stage
+      href: thorax disease.html  
+  - text: Work 
+    menu:
+    - text: EasyVisNor Package
+      icon: fa-archive
+      desc: Statistical tools to visualise and check varible's normality .
+      href: "https://github.com/abirjaouani/EasyVisNor"
+  - text: CV
+    href: cv.html
+  right:
+  - icon: fa-envelope-o
+    href: abizjaouani@gmail.com
+  - icon: fa-github
+    href: https://github.com/privefl/privefl.github.io
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
+

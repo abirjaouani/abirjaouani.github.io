@@ -1,0 +1,13 @@
+---
+title: "Hello there ! Welcome to my first website !"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
+---
+<ul>
+<div>
+<li> Abir JAOUANI , Data analyst student at <a href="http://www.essai.rnu.tn/accueil.htm">higher School of Statistics and Information Analysis . </a></li>
+</div>
+</ul>
+[GO and see who am i...](about.html)
